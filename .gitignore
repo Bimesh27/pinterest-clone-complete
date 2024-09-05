@@ -1,0 +1,40 @@
+# Node.js dependencies
+/node_modules/
+/frontend/node_modules/
+
+# Logs
+/backend/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Environment variables
+.env
+/.env          
+/backend/.env
+/frontend/.env
+
+# Build output
+/backend/dist/
+/backend/build/
+/frontend/dist/
+/frontend/build/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Mac system files
+.DS_Store
+
+# Optional: ignore coverage reports
+/backend/coverage/
+/frontend/coverage/
+
+# Optional: ignore temporary files
+/backend/tmp/
+/backend/temp/
+/frontend/tmp/
+/frontend/temp/
